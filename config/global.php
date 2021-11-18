@@ -1,6 +1,6 @@
 <?php 
 //ip de la pc servidor de base de datos
-define('DB_HOST', '	w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');//'us-cdbr-east-05.cleardb.net');
+define('DB_HOST', 'w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');//'us-cdbr-east-05.cleardb.net');
 
 define('DB_NAME', 'ptd7yw8yphc510cr');//'heroku_377315f10593325');
 
