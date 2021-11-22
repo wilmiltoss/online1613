@@ -43,17 +43,7 @@ if ($_SESSION['acceso']==1)
                           </thead>
                           <tbody>                            
                           </tbody>
-                          <tfoot>
-                            <th>Opciones</th>
-                            <th>Nombre</th>
-                            <th>Documento</th>
-                            <th>Número</th>
-                            <th>Teléfono</th>
-                            <th>Email</th>
-                            <th>Login</th>
-                            <th>Foto</th>
-                            <th>Estado</th>
-                          </tfoot>
+                    
                         </table>
                     </div>
                     <div class="panel-body" id="formularioregistros">

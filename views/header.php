@@ -60,7 +60,15 @@ if (strlen(session_id()) < 1)
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="user-image" alt="User Image">
+                  <img src="../files/usuarios/<?php //concatenamos
+                  if(!empty($_SESSION['imagen']))
+                  {
+                   echo $_SESSION['imagen']; 
+                 }else{
+                  echo 'usuario.png';//imagen por defecto 
+                  }
+
+                 ?>" class="user-image" alt="User Image">
                   <span class="hidden-xs"><?php echo $_SESSION['nombre']; ?></span>
                 </a>
                 <ul class="dropdown-menu">
@@ -68,8 +76,8 @@ if (strlen(session_id()) < 1)
                   <li class="user-header">
                     <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="img-circle" alt="User Image">
                     <p>
-                      www.incanatoit.com - Desarrollando Software
-                      <small>www.youtube.com/jcarlosad7</small>
+                      www.facebook.com/search/top?q=opticarol
+                      <small>carflei_13@gmail.com</small>
                     </p>
                   </li>
                   

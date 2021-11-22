@@ -24,7 +24,7 @@ function limpiar(){
 	$("#proveedor").val("");
 	$("#serie_comprobante").val("");
 	$("#num_comprobante").val("");
-	$("#impuesto").val("0");
+	$("#impuesto").val("10");
 
 	$("#total_compra").val("");
 	$(".filas").remove();
@@ -203,7 +203,7 @@ function anular(idingreso){
 //Declaración de variables necesarias para trabajar con las compras y
 //sus detalles
 
-var impuesto=18;
+var impuesto=10;
 var cont=0;
 var detalles=0;
 //$("#guardar").hide();
